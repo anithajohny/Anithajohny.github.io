@@ -1,0 +1,55 @@
+*{
+    margin:0;
+   
+    }
+    body { background-image:        url(background.jpg);        font-family: Verdana,        Arial, sans-serif; 
+        margin-top:40px;
+            color:black;
+                background-color: #cbcbd0;color: #191970; } 
+    header { align-items: center;	
+             background-image: url(edocs.jpg);
+            background-repeat: no-repeat;      
+            height: 100px; width: 700px; 
+            font-size: 3em;      
+            padding-left: 350px; 
+            padding-top: 30px;      
+            border-radius: 15px; }
+                   
+    h1 { background-color: #020ffc;color: #F9F0FE; }
+    h2 { color: #23105c; } 
+    nav { background-color: #EAEAF2;} 
+    footer { color: #666666; } 
+   
+      .column {
+        float: left;
+        width: 31%;
+        padding: 5px;
+      }
+      
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .content {padding: 20px 20px 0 20px; 
+      } 
+
+      form {  
+             font-family: Arial, sans-serif; 
+             width: 350px; padding: 10px; }
+      label { float: left; clear: left; display: block; 
+              width: 100px; padding-right: 10px;
+              margin-top: 10px; text-align: right; }
+      
+      textarea { display: block; margin-top: 10px; }
+      input[type="submit"] { margin-left: 110px; 
+        display: block; margin-top: 10px; }
+      #foo {
+          position: fixed;
+          bottom: 1;
+          right: 0;
+        }
+        .open{
+            background-color: #95959c;
+        }
